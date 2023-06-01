@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Sesion | MegaFrontend</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div id="app">
+        <h1><img src="./channels4_profile.jpg" alt="logo"> MegaFrontend</h1>
+        <form>
+            <div>
+                <span class="span-1">Usuario</span>
+                <input type="text" id="usuario" name="usuario" required>
+                <p class="p-1">Solo letras, numeros o guion ty guion_bajo</p>
+            </div>
+            <div>
+                <span class="span-2">Nombre</span>
+                <input type="text" id="nombre" name="nombre" required>
+                <p class="p-2">Solo letras y letras con acentos</p>
+            </div>
+            <div>
+                <span class="span-3">Correo</span>
+                <input type="email" id="email" name="email" required>
+                <p class="p-3">Solo letras, signos y numeros</p>
+            </div>
+            <div>
+                <span class="span-4">Password</span>
+                <input type="password" id="password" name="password" required>
+                <p class="p-4">Solo nuneros hasta 12 digitos su contraseña</p>
+            </div>
+            <button type="submit">Iniciar Sesion</button>
+        </form>
+    </div>
+
+   <script src="script.js"></script>
+    
+</body>
+</html>
